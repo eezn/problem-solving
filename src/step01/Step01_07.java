@@ -1,3 +1,5 @@
+// 10998. A*B (https://www.acmicpc.net/problem/10998)
+
 package step01;
 
 import java.util.Scanner;

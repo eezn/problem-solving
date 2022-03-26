@@ -1,3 +1,5 @@
+// 2480. 주사위 세개 (https://www.acmicpc.net/problem/2480)
+
 package step02;
 
 import java.util.Scanner;

@@ -1,3 +1,5 @@
+// 10172. 개 (https://www.acmicpc.net/problem/10172)
+
 package step01;
 
 public class Step01_04 {

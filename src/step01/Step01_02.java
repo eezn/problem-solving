@@ -1,3 +1,5 @@
+// 10718. We love kriii (https://www.acmicpc.net/problem/10718)
+
 package step01;
 
 public class Step01_02 {

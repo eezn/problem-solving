@@ -1,3 +1,5 @@
+// 2741. N 찍기 (https://www.acmicpc.net/problem/2741)
+
 package step03;
 
 import java.io.BufferedReader;

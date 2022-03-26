@@ -1,3 +1,5 @@
+// 2525. 오븐 시계 (https://www.acmicpc.net/problem/2525)
+
 package step02;
 
 import java.util.Scanner;

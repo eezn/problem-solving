@@ -1,3 +1,5 @@
+// 10871. X보다 작은 수 (https://www.acmicpc.net/problem/10871)
+
 package step03;
 
 import java.io.BufferedReader;

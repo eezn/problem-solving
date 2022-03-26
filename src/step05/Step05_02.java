@@ -1,3 +1,5 @@
+// 4673. 셀프 넘버 (https://www.acmicpc.net/problem/4673)
+
 package step05;
 
 public class Step05_02 {

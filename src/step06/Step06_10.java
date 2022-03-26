@@ -1,3 +1,5 @@
+// 1316. 그룹 단어 체커 (https://www.acmicpc.net/problem/1316)
+
 package step06;
 
 import java.io.BufferedReader;

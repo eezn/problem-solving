@@ -1,3 +1,5 @@
+// 2438. 별 찍기 - 1 (https://www.acmicpc.net/problem/2438)
+
 package step03;
 
 import java.io.BufferedReader;

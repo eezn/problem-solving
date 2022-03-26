@@ -1,5 +1,6 @@
-package step03;
+// 10950. A+B - 3 (https://www.acmicpc.net/problem/10950)
 
+package step03;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +8,8 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-/* // Scanner
+// Scanner
+/*
 public class Step03_02 {
     public static void main(String[] args) {
 
