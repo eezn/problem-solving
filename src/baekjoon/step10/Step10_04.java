@@ -18,11 +18,11 @@ public class Step10_04 {
     static int getMin(char[][] board, int row, int col) {
 
         int count = 0;
-        char prev = board[row][col];
+        char prev = revColor(board[row][col]);
 
         for (int i = row; i < row + 8; ++i) {
             for (int j = col; j < col + 8; ++j) {
-                if (board[i][j] != prev)
+                if (board[i][j] == prev)
                     count++;
                 prev = revColor(prev);
             }
