@@ -1,4 +1,4 @@
-// 9663. N-Queen (https://www.acmicpc.net/problem/9663)
+// G5 9663. N-Queen (https://www.acmicpc.net/problem/9663)
 
 package baekjoon.step13;
 
