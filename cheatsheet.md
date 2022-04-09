@@ -9,7 +9,7 @@ Scanner sc = new Scanner(System.in);
 - `sc.next()` : 화이트 스페이스를 기준으로 한 단어를 받음
 - `sc.next().charAt(0)` : **단일 문자를 입력받을 경우 사용**
 - `sc.nextLine()` : 개행을 기준으로 한 줄 입력 
-- `sc.nextInt()`, `sc.nextDouble()`, `sc.nextBigInteger()`... : 받은 값을 자료형에 맞게 리턴
+- `sc.nextInt()`, `sc.nextDouble()`, `sc.nextBigInteger()`, ... : 받은 값을 자료형에 맞게 리턴
 - `sc.close()`
 
 - 그 외 : `sc.token(), sc.hasNext()`, `sc.hasNextInt()`, `sc.hasNextBigInterger()`, 등등
