@@ -1,4 +1,4 @@
-// S2 9184. 피보나치 함수 (https://www.acmicpc.net/problem/9184)
+// S2 9184. 신나는 함수 실행 (https://www.acmicpc.net/problem/9184)
 
 package baekjoon.step14;
 
@@ -14,24 +14,20 @@ public class Step14_02 {
 
     private static int w(int a, int b, int c) {
 
-        int ret;
-
         if (a > 0 && b > 0 && c > 0 && dp[a][b][c] != 0)
-            ret = dp[a][b][c];
-        else {
-            if (a <= 0 || b <= 0 || c <= 0)
-                ret = 1;
-            else if (a > 20 || b > 20 || c > 20)
-                ret = w(20, 20, 20);
-            else if (a < b && b < c)
-                ret = w(a, b, c - 1) + w(a, b - 1, c - 1) - w(a, b - 1, c);
-            else
-                ret = w(a - 1, b, c) + w(a - 1, b - 1, c) + w(a - 1, b, c - 1) - w(a - 1, b - 1, c - 1);
-        }
+            return dp[a][b][c];
 
-        if (a > 0 && b > 0 && c > 0)
-            dp[a][b][c] = ret;
-        return ret;
+        if (a <= 0 || b <= 0 || c <= 0)
+            return 1;
+        if (a > 20 || b > 20 || c > 20)
+            return w(20, 20, 20);
+
+        if (a < b && b < c)
+            dp[a][b][c] = w(a, b, c - 1) + w(a, b - 1, c - 1) - w(a, b - 1, c);
+        else
+            dp[a][b][c] = w(a - 1, b, c) + w(a - 1, b - 1, c) + w(a - 1, b, c - 1) - w(a - 1, b - 1, c - 1);
+
+        return dp[a][b][c];
     }
 
     public static void main(String[] args) throws IOException {
@@ -41,25 +37,26 @@ public class Step14_02 {
         StringBuilder sb;
 
         ArrayList<StringBuilder> answer = new ArrayList<>();
-        int[] input = new int[3];
+        int a, b, c;
+        String temp;
 
         while (true) {
 
-            st = new StringTokenizer(br.readLine(), " ");
-            sb = new StringBuilder();
-
-            input[0] = Integer.parseInt(st.nextToken());
-            input[1] = Integer.parseInt(st.nextToken());
-            input[2] = Integer.parseInt(st.nextToken());
-
-            if (input[0] == -1 && input[1] == -1 && input[2] == -1)
+            temp = br.readLine();
+            if (temp.equals("-1 -1 -1"))
                 break;
 
+            st = new StringTokenizer(temp, " ");
+            a = Integer.parseInt(st.nextToken());
+            b = Integer.parseInt(st.nextToken());
+            c = Integer.parseInt(st.nextToken());
+
+            sb = new StringBuilder();
             sb.append("w(")
-                    .append(input[0]).append(", ")
-                    .append(input[1]).append(", ")
-                    .append(input[2]).append(") = ")
-                    .append(w(input[0], input[1], input[2])).append("\n");
+                    .append(a).append(", ")
+                    .append(b).append(", ")
+                    .append(c).append(") = ")
+                    .append(w(a, b, c)).append("\n");
 
             answer.add(sb);
         }
