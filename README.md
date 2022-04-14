@@ -5,7 +5,7 @@
 
 | 단계  | 제목                                                                                  | 참고                                                      | -                      |
 |:---:|:------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------|
-|  -  | [Cheat Sheet](https://github.com/eezn/ProblemSolving/blob/master/cheatsheet.md) |||
+|  -  | [Cheat Sheet](https://github.com/eezn/ProblemSolving/blob/master/cheatsheet.md)     |||
 |  1  | [입출력과 사칙연산](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step01) |||
 |  2  | [조건문](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step02)       |||
 |  3  | [반복문](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step03)       |||
@@ -22,4 +22,7 @@
 | 14  | [동적 계획법 1](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step14)  | Padovan                                                 ||
 | 15  | [그리디 알고리즘](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step15)  |                                                         | 회의실 배정(02), 주유소(05)    |
 | 16  | [정수론 및 조합론](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step16) |||
-| 00  | [](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step)          |||
+| 17  | [스택](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step17)        |||
+| 18  | [큐, 덱](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step18)      |||
+| 19  | [분할 정복](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step19)     |||
+| 00  | [](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step)            |||
