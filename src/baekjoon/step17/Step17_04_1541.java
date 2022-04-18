@@ -1,13 +1,13 @@
 // S2 1541. 잃어버린 괄호 (https://www.acmicpc.net/problem/1541)
 
-package baekjoon.step15;
+package baekjoon.step17;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Step15_04_1541 {
+public class Step17_04_1541 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

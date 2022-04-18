@@ -1,6 +1,6 @@
 // S3 11047. 동전 0 (https://www.acmicpc.net/problem/11047)
 
-package baekjoon.step15;
+package baekjoon.step17;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class Step15_01_11047 {
+public class Step17_01_11047 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

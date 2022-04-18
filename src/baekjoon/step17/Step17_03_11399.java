@@ -1,6 +1,6 @@
 // S3 11399. ATM (https://www.acmicpc.net/problem/11399)
 
-package baekjoon.step15;
+package baekjoon.step17;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Step15_03_11399 {
+public class Step17_03_11399 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

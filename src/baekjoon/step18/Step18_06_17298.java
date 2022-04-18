@@ -1,13 +1,13 @@
 // G4 17298. 오큰수 (https://www.acmicpc.net/problem/17298)
 
-package baekjoon.step17;
+package baekjoon.step18;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Step17_06_17298 {
+public class Step18_06_17298 {
 
     // 시간 초과
     public static void sol_001() throws IOException {

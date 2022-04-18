@@ -1,12 +1,12 @@
 // S3 1003. 피보나치 함수 (https://www.acmicpc.net/problem/1003)
 
-package baekjoon.step14;
+package baekjoon.step15;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Step14_01_1003 {
+public class Step15_01_1003 {
 
     /**
     * called[idx][0]: idx 번째 피보나치 숫자가 호출될 때 0 이 출력되는 횟수

@@ -1,6 +1,6 @@
 // S4 10866. 덱 (https://www.acmicpc.net/problem/10866)
 
-package baekjoon.step18;
+package baekjoon.step19;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.StringTokenizer;
 
-public class Step18_05_10866 {
+public class Step19_05_10866 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

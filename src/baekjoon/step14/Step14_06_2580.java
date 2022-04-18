@@ -1,13 +1,13 @@
 // G4 2580. 스도쿠 (https://www.acmicpc.net/problem/2580)
 
-package baekjoon.step13;
+package baekjoon.step14;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Step13_06_2580 {
+public class Step14_06_2580 {
 
     static int SIZE = 9;
     static int[][] sudoku = new int[SIZE][SIZE];

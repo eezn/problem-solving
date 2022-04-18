@@ -1,13 +1,13 @@
 // S4 13305. 주유소 (https://www.acmicpc.net/problem/13305)
 
-package baekjoon.step15;
+package baekjoon.step17;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Step15_05_13305 {
+public class Step17_05_13305 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

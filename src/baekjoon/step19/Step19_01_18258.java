@@ -1,34 +1,37 @@
-// S4 10828. 스택 (https://www.acmicpc.net/problem/10828)
+// S4 18258. 큐 2 (https://www.acmicpc.net/problem/18258)
 
-package baekjoon.step17;
+package baekjoon.step19;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.LinkedList;
+import java.util.StringTokenizer;
 
-public class Step17_01_10828 {
+public class Step19_01_18258 {
 
-    private static Vector<Integer> stack = new Vector<>();
+    private static LinkedList<Integer> queue = new LinkedList<>();
     private static int size = 0;
     private static final String[] method = {
             "push",
             "pop",
             "size",
             "empty",
-            "top"
+            "front",
+            "back"
     };
 
     public static void push(int n) {
-        stack.add(n);
+        queue.add(n);
         size++;
     }
 
     public static int pop() {
         if (size == 0)
             return -1;
-        int ret = stack.get(--size);
-        stack.remove(size);
+        int ret = queue.get(0);
+        queue.remove(0);
+        size--;
         return ret;
     }
 
@@ -42,12 +45,18 @@ public class Step17_01_10828 {
         return 0;
     }
 
-    public static int top() {
+    public static int front() {
         if (size == 0)
             return -1;
-        else
-            return stack.get(size - 1);
+        return queue.get(0);
     }
+
+    public static int back() {
+        if (size == 0)
+            return -1;
+        return queue.get(size - 1);
+    }
+
 
     public static void main(String[] args) throws IOException {
 
@@ -63,7 +72,7 @@ public class Step17_01_10828 {
             String cmd = st.nextToken();
 
             int idx;
-            for (idx = 0; idx < 5; ++idx)
+            for (idx = 0; idx < method.length; ++idx)
                 if (cmd.equals(method[idx])) break;
 
             switch (idx) {
@@ -71,10 +80,11 @@ public class Step17_01_10828 {
                 case 1: sb.append(pop()).append('\n'); break;
                 case 2: sb.append(size()).append('\n'); break;
                 case 3: sb.append(empty()).append('\n'); break;
-                case 4: sb.append(top()).append('\n'); break;
+                case 4: sb.append(front()).append('\n'); break;
+                case 5: sb.append(back()).append('\n'); break;
             }
         }
 
-        System.out.print(sb);
+        System.out.println(sb);
     }
 }

@@ -1,6 +1,6 @@
 // S4 11866. 요세푸스 문제 0 (https://www.acmicpc.net/problem/11866)
 
-package baekjoon.step18;
+package baekjoon.step19;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Step18_03_11866 {
+public class Step19_03_11866 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

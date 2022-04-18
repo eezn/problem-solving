@@ -1,13 +1,13 @@
 // S3 9461. 파도반 수열 (https://www.acmicpc.net/problem/9461)
 
-package baekjoon.step14;
+package baekjoon.step15;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class Step14_04_9461 {
+public class Step15_04_9461 {
 
     static int SIZE = 100;
     static long[] dp = new long[SIZE + 1];

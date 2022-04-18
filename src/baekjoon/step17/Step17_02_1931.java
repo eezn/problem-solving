@@ -1,6 +1,6 @@
 // S2 1931. 회의실 배정 (https://www.acmicpc.net/problem/1931)
 
-package baekjoon.step15;
+package baekjoon.step17;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-public class Step15_02_1931 {
+public class Step17_02_1931 {
 
     static final int START = 0;
     static final int END = 1;

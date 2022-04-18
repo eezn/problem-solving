@@ -1,6 +1,6 @@
 // S2 9184. 신나는 함수 실행 (https://www.acmicpc.net/problem/9184)
 
-package baekjoon.step14;
+package baekjoon.step15;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-public class Step14_02_9184 {
+public class Step15_02_9184 {
 
     static int[][][] dp = new int[51][51][51];
 

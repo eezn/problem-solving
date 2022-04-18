@@ -1,12 +1,12 @@
 // S3 1904. 01타일 (https://www.acmicpc.net/problem/1904)
 
-package baekjoon.step14;
+package baekjoon.step15;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Step14_03_1904 {
+public class Step15_03_1904 {
 
     static int SIZE = 1000000;
     static int[] dp = new int[SIZE + 1];

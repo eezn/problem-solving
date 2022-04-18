@@ -1,12 +1,12 @@
 // G5 9663. N-Queen (https://www.acmicpc.net/problem/9663)
 
-package baekjoon.step13;
+package baekjoon.step14;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Step13_05_9663 {
+public class Step14_05_9663 {
 
     static int total = 0;
     static int n;

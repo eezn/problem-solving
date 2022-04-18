@@ -1,13 +1,13 @@
 // S1 1149. RGB거리 (https://www.acmicpc.net/problem/1149)
 
-package baekjoon.step14;
+package baekjoon.step15;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Step14_05_1149 {
+public class Step15_05_1149 {
 
     static int n;
     static int[][] cost;

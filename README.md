@@ -18,11 +18,12 @@
 | 10  | [브루트 포스](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step10)    ||
 | 11  | [정렬](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step11)        | Bubble, Selection, Insertion Sort(01)</br> Merge Sort(02)</br> Counting Sort(03) ||
 | 12  | 집합과 맵                                                                               |||
-| 13  | [백트래킹](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step13)      | Permutation                                                                      | N-Queen(05), 스도쿠(06)                    |
-| 14  | [동적 계획법 1](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step14)  | Padovan                                                                          ||
-| 15  | [그리디 알고리즘](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step15)  |                                                                                  | 회의실 배정(02), 주유소(05)                     |
-| 16  | [정수론 및 조합론](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step16) |||
-| 17  | [스택](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step17)        |                                                                                  | 괄호(03), 균형잡힌 세상(04), 스택 수열(05), 오큰수(06) |
-| 18  | [큐, 덱](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step18)      |||
-| 19  | [분할 정복](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step19)     |||
+| 13  | 정수론 및 조합론                                                                           |||
+| 14  | [백트래킹](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step14)      | Permutation                                                                      | N-Queen(05), 스도쿠(06)                    |
+| 15  | [동적 계획법 1](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step15)  | Padovan                                                                          ||
+| 16  | 누적 합                                                                                |||
+| 17  | [그리디 알고리즘](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step17)  |                                                                                  | 회의실 배정(02), 주유소(05)                     |
+| 18  | [스택](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step18)        |                                                                                  | 괄호(03), 균형잡힌 세상(04), 스택 수열(05), 오큰수(06) |
+| 19  | [큐, 덱](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step19)      |||
+| 20  | [분할 정복](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step20)     |||
 | 00  | [](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step)            |||

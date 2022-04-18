@@ -1,13 +1,13 @@
 // S4 9012. 괄호 (https://www.acmicpc.net/problem/9012)
 
-package baekjoon.step17;
+package baekjoon.step18;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class Step17_03_9012 {
+public class Step18_03_9012 {
     public static void main(String[] args) throws IOException {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
