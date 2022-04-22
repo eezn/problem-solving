@@ -26,4 +26,6 @@
 | 18  | [스택](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step18)        |                                                                                  | 괄호(03), 균형잡힌 세상(04), 스택 수열(05), 오큰수(06) |
 | 19  | [큐, 덱](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step19)      |||
 | 20  | [분할 정복](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step20)     |||
+| 21  | [이분 탐색](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step21)     |||
+| 22  | [우선순위 큐](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step22)    |||
 | 00  | [](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step)            |||
