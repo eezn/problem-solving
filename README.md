@@ -18,7 +18,7 @@
 | 10  | [브루트 포스](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step10)    ||
 | 11  | [정렬](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step11)        | Bubble, Selection, Insertion Sort(01)</br> Merge Sort(02)</br> Counting Sort(03) ||
 | 12  | 집합과 맵                                                                               |||
-| 13  | [정수론 및 조합론](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step13) |||
+| 13  | [정수론 및 조합론](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step13) | Euclidean algorithm                                                                                 ||
 | 14  | [백트래킹](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step14)      | Permutation                                                                      | N-Queen(05), 스도쿠(06)                    |
 | 15  | [동적 계획법 1](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step15)  | Padovan                                                                          ||
 | 16  | 누적 합                                                                                |||
