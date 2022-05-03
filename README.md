@@ -13,12 +13,12 @@
 |  5  | [함수](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step05)        |||
 |  6  | [문자열](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step06)       |                                                                                  | 다이얼(08), 크로아티아 알파벳(09)                  |
 |  7  | [기본 수학 1](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step07)   | BigInterger(08)                                                                  ||
-|  8  | [기본 수학 2](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step07)   | Prime number, Prime factorization                                                | 터렛(11)                                  |
+|  8  | [기본 수학 2](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step08)   | Prime number, Prime factorization                                                | 터렛(11)                                  |
 |  9  | [재귀](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step09)        | Factorial, Fibonacci                                                             ||
 | 10  | [브루트 포스](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step10)    ||
 | 11  | [정렬](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step11)        | Bubble, Selection, Insertion Sort(01)</br> Merge Sort(02)</br> Counting Sort(03) ||
 | 12  | 집합과 맵                                                                               |||
-| 13  | [정수론 및 조합론](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step13) | Euclidean algorithm(03)                                                          ||
+| 13  | [정수론 및 조합론](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step13) | **Euclidean algorithm(03)**,</br> 이항계수, Binomial Coefficient, Combination(07)    ||
 | 14  | [백트래킹](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step14)      | Permutation                                                                      | N-Queen(05), 스도쿠(06)                    |
 | 15  | [동적 계획법 1](https://github.com/eezn/ProblemSolving/tree/master/src/baekjoon/step15)  | Padovan                                                                          ||
 | 16  | 누적 합                                                                                |||
